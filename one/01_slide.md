@@ -104,7 +104,7 @@
 
 * Campfire
 * Personal heroku clouds
-* Trello/Pivotal/Nagios/Graphite/PagerDuty/Splunk/....
+* Github/Trello/Pivotal/Nagios/Graphite/PagerDuty/Splunk/....
 * Deploy often, watch the graphs and logs!
 
 !SLIDE 
@@ -119,3 +119,21 @@
 
 !SLIDE bullets
 # How Heroku Uses Heroku #
+
+!SLIDE
+
+# Routing #
+
+* Erlang system
+* Takes requests from ELBs and routes to dynos
+* Is deployed as an Heroku app
+
+!SLIDE code
+
+    @@@ Bash
+    λ cat Procfile 
+    web: bin/routing
+
+!SLIDE bullet
+# Ship #
+
