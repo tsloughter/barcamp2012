@@ -1,14 +1,17 @@
 /* custom css and js files included at the top level of your presentation will
  * will be included in your presentation */
 
+@font-face {
+  font-family: 'hybrea';
+  src: url('./fonts/hybrea.woff');
+}
+
 .slide {
   color: #9391AC;
   color: rgba(147, 145, 172, 1);
   
-
-  font-family: hybrea, "helvetica neue", helvetica, arial, geneva, sans-serif;
+  font-family: 'hybrea'; 
   -webkit-font-smoothing: antialiased;
-  #font-family: 'Helvetica Neue', Helvetica, Arial Geneva, sans-serif;
   font-size: 13px;
   text-align: center;
   
@@ -26,5 +29,4 @@
   bottom: 30px;
   content: url(logo.png);
 }
-
 
