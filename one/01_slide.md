@@ -110,7 +110,12 @@
 !SLIDE 
 # Personal Herokus #
 
+    @@@ Bash
+    λ bin/ion devcloud setup
 
+!SLIDE
+
+![ion](ion.png)
 
 !SLIDE bullets
 # How Heroku Uses Heroku #
