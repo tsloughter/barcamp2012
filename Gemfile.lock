@@ -3,6 +3,7 @@ GEM
   specs:
     addressable (2.3.2)
     blankslate (2.1.2.4)
+    bluecloth (2.2.0)
     excon (0.16.3)
     gli (2.2.1)
     heroku (2.31.4)
@@ -21,12 +22,14 @@ GEM
     nokogiri (1.5.5)
     parslet (1.4.0)
       blankslate (~> 2.0)
+    pdfkit (0.5.2)
     rack (1.4.1)
     rack-protection (1.2.0)
       rack
     redcarpet (2.1.1)
     rest-client (1.6.7)
       mime-types (>= 1.16)
+    rmagick (2.13.1)
     rubyzip (0.9.9)
     showoff (0.7.0)
       gli (>= 2.0.0)
@@ -45,6 +48,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bluecloth
   heroku
+  pdfkit
   redcarpet
+  rmagick
   showoff
