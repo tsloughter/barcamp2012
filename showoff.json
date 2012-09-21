@@ -1,0 +1,7 @@
+{
+    "name": "How Heroku Uses Heroku to Build Heroku",
+    "templates" : {
+        "special" : "heroku.tpl"
+    },
+    "sections": [ {"section":"one"} ]
+}
