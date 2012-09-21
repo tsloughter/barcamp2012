@@ -30,3 +30,13 @@
   content: url(logo.png);
 }
 
+pre.sh_bash {
+  text-align: left;
+  color: black;
+  border-radius: 10px;
+  background: #D8D8D8; //#0F1656;
+  -moz-box-shadow:    3px 3px 5px 6px #bbb;
+  -webkit-box-shadow: 3px 3px 5px 6px #bbb;
+  box-shadow:         3px 3px 5px 6px #bbb;
+  font-size: 30px;
+}
