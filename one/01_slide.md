@@ -100,6 +100,12 @@
 * Did we manually build artifacts and deploy?
 
 !SLIDE bullets
+# Building for the Cloud#
+
+*
+*
+
+!SLIDE bullets
 # A bit about how we work #
 
 * Campfire
@@ -119,6 +125,9 @@
 
 !SLIDE bullets
 # How Heroku Uses Heroku #
+
+* Why dogfood?
+*
 
 !SLIDE
 
@@ -144,4 +153,11 @@
 # In Campfire #
 
     @@@ Bash
-    >cut release ion-geoff koala master
+    >cut release ion-<me> routing master
+
+!SLIDE
+# Conclusion #
+
+*
+*
+*
