@@ -127,7 +127,6 @@
 # How Heroku Uses Heroku #
 
 * Why dogfood?
-*
 
 !SLIDE
 
@@ -147,7 +146,7 @@
 # Ship #
 
     @@@ Bash
-    $ bin/ship -b v6 -c deploymaster -u degan
+    $ bin/ship -b v6 -c dpmaster -u doogie
 
 !SLIDE code
 # In Campfire #
@@ -158,6 +157,5 @@
 !SLIDE
 # Conclusion #
 
-*
-*
-*
+* Use Heroku
+
