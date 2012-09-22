@@ -125,7 +125,7 @@
 # Routing #
 
 * Erlang system
-* Takes requests from ELBs and routes to dynos
+* Takes Cedar stack requests from ELBs and routes to dynos
 * Is deployed as an Heroku app
 
 !SLIDE code
@@ -134,6 +134,14 @@
     λ cat Procfile 
     web: bin/routing
 
-!SLIDE bullet
+!SLIDE code
 # Ship #
 
+    @@@ Bash
+    $ bin/ship -b v6 -c deploymaster -u degan
+
+!SLIDE code
+# In Campfire #
+
+    @@@ Bash
+    >cut release ion-geoff koala master
